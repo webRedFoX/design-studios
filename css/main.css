@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: #eeeeee;
+}
+body {
+	background: url("../img/bgbody.png") #EAEAEA;
+	font-family: Arial, sans-serif;
+}
+.clr {
+	clear: both;
+}
+.wrapper {
+	width: 1100px;
+	margin: 35px auto;
+	background: #ffffff;
+	box-shadow: 1px 2px 3px #DDDDDD;
+	border-radius: 7px;
+}
+.header {
+	height: 135px;
+	background: #333333;
+}
+.header img {
+	float: left;
+	padding: 45px 0px 0px 70px;
+}
+.header ul {
+	list-style-type: none;
+	float: right;
+	margin: auto;
+	padding: 75px 70px 0px 0px;
+}
+.header ul li {
+	display: inline-block;
+	padding: 0 5px;
+	color: #eeeeee;
+}
+.header ul li a:hover {
+	color: #00aeef;
+}
+.content {
+	width: 960px;
+	margin: 25px auto;
+	height: 1700px;
+}
+.content p.c_text {
+	margin: 15px 0;
+	font-size: 22px;
+	text-indent: 45px;
+}
+.border {
+	border-bottom: dashed #eaeaea;
+	margin-bottom: 25px;
+}
+.content .box {
+	height: 350px;
+}
+.content .box figure {
+	float: left;
+	background: #00aeef;
+	width: 285px;
+	height: 350px;
+	margin: 15px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.content .box figure  p {
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.content .box  figure h1 {
+	color: #fff;
+	text-align: center;
+}
+.content .box figure .box_border {
+	width: 200px;
+	border-bottom: dashed 1px #fff;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+.content .box figure  span.box_text {
+	display: block;
+	color: #fff;
+	padding:30px;
+}
+.content .box figure button {
+	background: #0076a3;
+	width: 232px;
+	height: 42px;
+	border:solid 2px #15607c;
+	margin-left: 15px;
+	color: #fff;
+	font-size: 18px;
+    cursor: pointer;
+}
+.border_bottom {
+	border-bottom: dashed #eaeaea;
+	margin: 30px 0;
+}
+.content h3 {
+	margin-bottom: 15px;
+}
+.client_box {
+	float: left;
+}
+.client {
+	margin-bottom: 25px;
+	width: 485px;
+}
+.client .image {
+	float: left;	
+	margin-right: 25px;
+	
+}
+.client span.prof {
+	color: #00aeef;
+	font-size: 0.9em;
+}
+.featured_project {
+	float: left;
+	width: 450px;
+	margin-left: 25px;
+}
+.featured_project span.yoshi {
+	color: #888888;
+	display: block;
+	margin-bottom: 15px;
+}
+.featured_project img {
+	margin-bottom: 25px;
+}
+.featured_project span.link {
+	color: #00aeef;
+	margin-top: 15px;
+	display: block;
+}
